@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hamza | IIT  · Game Developer . Software Engineer . Competitive Coder </title>
+  <title>Hamza | IIT · Game Developer · Software Engineer · Competitive Coder</title>
   <meta name="description" content="Portfolio of IT work done by Hamza" />
+
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">  <!-- Devicon icons -->
 
   <style>
     :root {
@@ -13,14 +16,14 @@
       --text: #e5e7eb;
       --muted: #9ca3af;
       --accent: #38bdf8;
-      --focus: #22d3ee;                      <! A color palette that signifies maturity and composure >
+      --focus: #22d3ee; /* Makes for a mature & composed color palette */
     }
 
     * { box-sizing: border-box; }
 
     body {
       margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Arial, sans-serif;     <! A nice font for a sleek design >
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Arial, sans-serif;
       background: linear-gradient(180deg, #020617, #020617 30%, var(--bg));
       color: var(--text);
       line-height: 1.65;
@@ -84,26 +87,33 @@
     .tags {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.4rem;
+      gap: 0.5rem;
       margin-top: 0.5rem;
     }
 
     .tag {
-      font-size: 0.75rem;
-      padding: 0.25rem 0.5rem;
+      font-size: 0.8rem;
+      padding: 0.35rem 0.6rem;
       border-radius: 999px;
       background: rgba(56,189,248,0.18);
       color: #e0f2fe;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .tag i {
+      font-size: 1rem;
     }
 
     footer {
       margin-top: 4rem;
       border-top: 1px solid rgba(255,255,255,0.08);
       text-align: center;
-      color: var(--muted);   
+      color: var(--muted);
       font-size: 0.85rem;
     }
-  </style> 
+  </style>
 </head>
 
 <body>
@@ -111,14 +121,14 @@
 <header>
   <h1>Hi, I am Hamza 👋</h1>
   <p>
-    IIT student passionate about <strong>Game Development</strong> and <strong>Software Engineering</strong>,
+    IIT student passionate about Game Development and Software Engineering,
     with a strong focus on Unity, C#, and building innovative interactive systems.
   </p>
 
   <nav aria-label="Primary navigation">
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
-    <a href="#skills">Tech Stack and Tools</a>
+    <a href="#skills">Tech Stack</a>
     <a href="#certifications">Certifications</a>
     <a href="#github">GitHub</a>
     <a href="#contact">Contact</a>
@@ -126,106 +136,130 @@
 </header>
 
 <main>
-  <section id="about">
-    <h2>💫 About Me</h2>
-    <div class="card">
-      <p>
-        I am a student majoring in Industrial IT, actively working on developing innovative solutions—
-        whether that means engineering complex game mechanics or solving real-world
-        system design problems, with the help of skills and knowledge that I have obtained from different aspects of my life.
-      </p>
-      <p>
-        I enjoy building interactive experiences using modern tools and frameworks,
-        and I constantly seek opportunities to deepen my understanding of
-        game engines, software architecture, systems design, performance-oriented programming as well as machine learning capabilities.
-      </p>
-    </div>
-  </section>
 
-  <section id="projects">
-    <h2> 👩🏻‍💻📓✍🏻💡 Projects 👩🏻‍💻📓✍🏻💡 </h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Projects</h3>
-        <p>
-          A collection of Unity-based games and prototypes exploring mechanics,
-          physics systems, and gameplay architecture.
-        </p>
-        <div class="tags">
-          <span class="tag">Unity</span>
-          <span class="tag">C#</span>
-          <span class="tag">Game Development and Design</span>
-          <span class ="tag">Pixel Art (with Aseprite)</span>
-        </div>
+<section id="about">
+  <h2>💫 About Me</h2>
+  <div class="card">
+    <p>
+      I am an Industrial IT student who enjoys developing complex game mechanics,
+      solving real-world system design problems, and engineering interactive experiences.
+    </p>
+    <p>
+      My interests include software architecture, systems design, game engines, machine learning and
+      performance-oriented programming fit for collaborative work.
+    </p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>👩🏻‍💻 Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Game Development</h3>
+      <p>Unity-based games and gameplay prototypes.</p>
+      <div class="tags">
+        <span class="tag"><i class="devicon-unity-plain"></i> Unity</span>
+        <span class="tag"><i class="devicon-csharp-plain"></i> C#</span>
+        <span class="tag">🎨 Pixel Art</span>
       </div>
-      <div class="card">
-        <h3>Software & Engineering Work</h3>
-        <p>
-          Software engineering projects focusing on problem solving, data handling,
-          APIs, and scalable application logic.
-        </p>
-        <div class="tags">
-          <span class="tag">![JavaScript]</span>
-          <span class="tag">![Python]</span>
-          <span class="tag">![C++]</span>
-        </div>
+    <div class="card">
+      <h3>Software Engineering</h3>
+      <p>Problem solving, APIs, and scalable application logic.</p>
+      <div class="tags">
+        <span class="tag"><i class="devicon-javascript-plain"></i> JavaScript</span>
+        <span class="tag"><i class="devicon-python-plain"></i> Python</span>
+        <span class="tag"><i class="devicon-cplusplus-plain"></i> C++</span
+    </div>  
+</section>
+
+<section id="skills">
+  <h2>💻 Tech Stack & Tools</h2>
+  <div class="card">
+    <p><strong>Languages:</strong></p>
+    <div class="tags">
+      <span class="tag"><i class="devicon-csharp-plain"></i> C#</span>
+      <span class="tag"><i class="devicon-cplusplus-plain"></i> C++</span>
+      <span class="tag"><i class="devicon-javascript-plain"></i> JavaScript</span>
+      <span class="tag"><i class="devicon-python-plain"></i> Python</span>
+      <span class="tag"><i class="devicon-typescript-plain"></i> TypeScript</span>
+      [![My Skills](https://skillicons.dev/icons?i=cs,cpp,js,html,py)](https://skillicons.dev)
+      <div align="center"> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" alt="TypeScript" title="TypeScript"/></code>
       </div>
     </div>
-  </section>
-
-  <section id="skills">
-    <h2>💻 Tech Stack & Tools 💻 </h2>
-    <div class="card">
-      <p><strong>Languages:</strong> ![C#], ![C++], ![JavaScript], ![TypeScript], ![Python]</p>
-      <p><strong>Frameworks & Engines:</strong> ![Unity, ![Unreal Engine, ![React, ![Node.js]</p>
-      <p><strong>Tools:</strong> ![GitHub, ![Azure, ![Power BI], ![Pandas], ![Aseprite], ![Libresprite], ![Adobe Photoshop], [Premiere Pro]</p>
-      <p><strong>Platforms:</strong> ![Itch.io], ![Xbox]</p>
+    <p><strong>Frameworks & Engines:</strong></p>
+    <div class="tags">
+      <span class="tag"><i class="devicon-unity-plain"></i> Unity</span>
+      <span class="tag"><i class="devicon-unrealengine-original"></i> Unreal</span>
+      <span class="tag"><i class="devicon-react-original"></i> React</span>
+      <span class="tag"><i class="devicon-nodejs-plain"></i> Node.js</span>
+      <span class="tag"><i class="devicon-nodejs-plain"></i> Visual Studio</span>
+       <span class="tag"><i class="devicon-nodejs-plain"></i> Visual Studio Code</span>
+      [![My Skills](https://skillicons.dev/icons?i=unity,unreal,react,nodejs,matlab,visualstudio,vscode)](https://skillicons.dev)
     </div>
-  </section>
-
-  <section id="certifications">
-  <h2>🏵️ Certifications 🏵️ </h2>
-  <div class = "card">
-      <p>
-        <strong>Game Design and Development Specialization 1</strong> 
-        <a href="https://www.coursera.org/account/accomplishments/verify/THWH5WZQK7NA" t
-        
-                                                                         
-      </p>
-
-  <section id="github">
-    <h2>📊 GitHub</h2>
-    <div class="card">
-      <p>
-        Explore repositories of projects, commits, and ongoing work done by me on GitHub.
-      </p>
-      <p>
-        👉 <a href="https://github.com/MHamzaS45" target="_blank" rel="noopener">github.com/MHamzaS45</a>
-      </p>
+    <p><strong>Tools:</strong></p>
+    <div class="tags">
+      <span class="tag"><i class="devicon-github-original"></i> GitHub</span>
+      <span class="tag"><i class="devicon-azure-plain"></i> Azure</span>
+      <span class="tag"> Power BI</span>
+      <span class="tag"> Aseprite</span>
+      <span class="tag"> Premiere Pro</span>
+      [![My Skills](https://skillicons.dev/icons?i=git,github,azure,ps)](https://skillicons.dev)
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="contact">
-    <h2>🌐 Contact 🌐 </h2>
-    <div class="card">
-      <p>
-        Connect with me on LinkedIn:
-      </p>
-      <p>
-        [in] <a href="https://www.linkedin.com/in/hamza-sahqani-651135388/" target="_blank" rel="noopener"> LinkedIn </a>
-      </p>
-      <p>
-        Follow on itch.io
-        🕹️ <a href="https://uwut09.itch.io/" target = "_blank" rel="noopener"> Itch.io </a>
-     </p>
-    </div>
-  </section>
+<section id="certifications">
+  <h2>🏵️ Certifications</h2>
+  <div class="card">
+    <p><strong>Game Design & Development Specialization 1: </strong></p>
+    <img src="https://img.shields.io/badge/Michigan%20State%20University-Coursera-005DAA?style=for-the-badge&logo=coursera&logoColor=white" alt=" GD Certificate">
+    <p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/THWH5WZQK7NA"
+         target="_blank" rel="noopener">
+        🔗 View Certificate
+      </a>
+    <img src="https://img.shields.io/badge/Udemy-Course-A435F0?style=for-the-badge&logo=udemy&logoColor=white" alt="ATBSWP Certificate">
+       <a href ="https://www.udemy.com/certificate/UC-745407f0-2df5-4ae0-a991-c96a1ccfdbd7/" alt="Udemy"
+         target="_blank" rel="noopener">
+         🔗 View Certificate
+       </a>  
+    <img src="https://img.shields.io/badge/University%20of%20Turku-Finland-003580?style=for-the-badge" alt="University of Turku">
+        <a href="https://www.linkedin.com/in/hamza-sahqani-651135388/overlay/1764242972434/single-media-viewer?type=DOCUMENT&profileId=ACoAAF9qZF0BhxDKV_1mwCHuUnktDset0oSzyTE&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BcW%2FKd0K9SIa1BflM9vB74Q%3D%3D" target="_blank" rel="noopener">
+        🔗 View Certificate
+        </a>
+    </p>
+  </div>
+</section>
+
+<section id="github">
+  <h2>📊 GitHub</h2>
+  <div class="card">
+    👉 <a href="https://github.com/MHamzaS45" target="_blank" rel="noopener">
+      github.com/MHamzaS45
+    </a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>🌐 Contact</h2>
+  <div class="card">
+    <p>
+      <a href="https://www.linkedin.com/in/hamza-sahqani-651135388/" target="_blank" rel="noopener">
+        🔗 LinkedIn
+      </a>
+    </p>
+    <p>
+      <a href="https://uwut09.itch.io/" target="_blank" rel="noopener">
+        🕹️ itch.io
+      </a>
+    </p>
+  </div>
+</section>
+
 </main>
 
 <footer>
-  <p>
-    ©  Hosted on GitHub Pages
-  </p>  
+  <p>© Hosted on GitHub Pages</p>
 </footer>
 
 </body>
