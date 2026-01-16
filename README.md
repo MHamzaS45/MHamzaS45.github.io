@@ -136,7 +136,8 @@
 </header>
 
 <main>
-
+  
+<!--ABOUTME-->
 <section id="about">
   <h2>💫 About Me</h2>
   <div class="card">
@@ -151,6 +152,7 @@
   </div>
 </section>
 
+<!-- PROJECTS-->
 <section id="projects">
   <h2>👩🏻‍💻 Projects</h2>
   <div class="grid">
@@ -162,16 +164,20 @@
         <span class="tag"><i class="devicon-csharp-plain"></i> C#</span>
         <span class="tag">🎨 Pixel Art</span>
       </div>
+    </div>
     <div class="card">
       <h3>Software Engineering</h3>
       <p>Problem solving, APIs, and scalable application logic.</p>
       <div class="tags">
         <span class="tag"><i class="devicon-javascript-plain"></i> JavaScript</span>
         <span class="tag"><i class="devicon-python-plain"></i> Python</span>
-        <span class="tag"><i class="devicon-cplusplus-plain"></i> C++</span
-    </div>  
+        <span class="tag"><i class="devicon-cplusplus-plain"></i> C++</span>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- SKILLS-->
 <section id="skills">
   <h2>💻 Tech Stack & Tools</h2>
   <div class="card">
@@ -180,11 +186,8 @@
       <span class="tag"><i class="devicon-csharp-plain"></i> C#</span>
       <span class="tag"><i class="devicon-cplusplus-plain"></i> C++</span>
       <span class="tag"><i class="devicon-javascript-plain"></i> JavaScript</span>
-      <span class="tag"><i class="devicon-python-plain"></i> Python</span>
       <span class="tag"><i class="devicon-typescript-plain"></i> TypeScript</span>
-      [![My Skills](https://skillicons.dev/icons?i=cs,cpp,js,html,py)](https://skillicons.dev)
-      <div align="center"> <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" alt="TypeScript" title="TypeScript"/></code>
-      </div>
+      <span class="tag"><i class="devicon-python-plain"></i> Python</span>
     </div>
     <p><strong>Frameworks & Engines:</strong></p>
     <div class="tags">
@@ -192,45 +195,47 @@
       <span class="tag"><i class="devicon-unrealengine-original"></i> Unreal</span>
       <span class="tag"><i class="devicon-react-original"></i> React</span>
       <span class="tag"><i class="devicon-nodejs-plain"></i> Node.js</span>
-      <span class="tag"><i class="devicon-nodejs-plain"></i> Visual Studio</span>
-       <span class="tag"><i class="devicon-nodejs-plain"></i> Visual Studio Code</span>
-      [![My Skills](https://skillicons.dev/icons?i=unity,unreal,react,nodejs,matlab,visualstudio,vscode)](https://skillicons.dev)
+      <span class="tag">🛠 Visual Studio</span>
+      <span class="tag">📝 VS Code</span>
     </div>
     <p><strong>Tools:</strong></p>
     <div class="tags">
       <span class="tag"><i class="devicon-github-original"></i> GitHub</span>
       <span class="tag"><i class="devicon-azure-plain"></i> Azure</span>
-      <span class="tag"> Power BI</span>
-      <span class="tag"> Aseprite</span>
-      <span class="tag"> Premiere Pro</span>
-      [![My Skills](https://skillicons.dev/icons?i=git,github,azure,ps)](https://skillicons.dev)
+      <span class="tag">📊 Power BI</span>
+      <span class="tag">🎨 Aseprite</span>
+      <span class="tag">🎬 Premiere Pro</span>
     </div>
   </div>
 </section>
 
+<!--CERTIFICATES-->
 <section id="certifications">
   <h2>🏵️ Certifications</h2>
   <div class="card">
-    <p><strong>Game Design & Development Specialization 1: </strong></p>
-    <img src="https://img.shields.io/badge/Michigan%20State%20University-Coursera-005DAA?style=for-the-badge&logo=coursera&logoColor=white" alt=" GD Certificate">
+    <p><strong>Game Design & Development Specialization 1</strong></p>
+    <img src="https://img.shields.io/badge/Michigan%20State%20University-Coursera-005DAA?style=for-the-badge&logo=coursera&logoColor=white" alt="GD Certificate">
     <p>
-      <a href="https://www.coursera.org/account/accomplishments/verify/THWH5WZQK7NA"
-         target="_blank" rel="noopener">
+      <a href="https://www.coursera.org/account/accomplishments/verify/THWH5WZQK7NA" target="_blank" rel="noopener">
         🔗 View Certificate
       </a>
-    <img src="https://img.shields.io/badge/Udemy-Course-A435F0?style=for-the-badge&logo=udemy&logoColor=white" alt="ATBSWP Certificate">
-       <a href ="https://www.udemy.com/certificate/UC-745407f0-2df5-4ae0-a991-c96a1ccfdbd7/" alt="Udemy"
-         target="_blank" rel="noopener">
-         🔗 View Certificate
-       </a>  
-    <img src="https://img.shields.io/badge/University%20of%20Turku-Finland-003580?style=for-the-badge" alt="University of Turku">
-        <a href="https://www.linkedin.com/in/hamza-sahqani-651135388/overlay/1764242972434/single-media-viewer?type=DOCUMENT&profileId=ACoAAF9qZF0BhxDKV_1mwCHuUnktDset0oSzyTE&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BcW%2FKd0K9SIa1BflM9vB74Q%3D%3D" target="_blank" rel="noopener">
+    </p>
+    <img src="https://img.shields.io/badge/Udemy-Course-A435F0?style=for-the-badge&logo=udemy&logoColor=white" alt="Udemy Certificate">
+    <p>
+      <a href="https://www.udemy.com/certificate/UC-745407f0-2df5-4ae0-a991-c96a1ccfdbd7/" target="_blank" rel="noopener">
         🔗 View Certificate
-        </a>
+      </a>
+    </p>
+    <img src="https://img.shields.io/badge/University%20of%20Turku-Finland-003580?style=for-the-badge" alt="University of Turku">
+    <p>
+      <a href="https://www.linkedin.com/in/hamza-sahqani-651135388/" target="_blank" rel="noopener">
+        🔗 View Certificate
+      </a>
     </p>
   </div>
 </section>
 
+<!--gitHub-->
 <section id="github">
   <h2>📊 GitHub</h2>
   <div class="card">
@@ -240,6 +245,7 @@
   </div>
 </section>
 
+<!--CONTACT-->
 <section id="contact">
   <h2>🌐 Contact</h2>
   <div class="card">
