@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hamza | IIT Student · Game Developer</title>
-  <meta name="description" content="Portfolio of Hamza, an IIT student specializing in Unity, game development, and software engineering." />
+  <title>Hamza | IIT  · Game Developer . Software Engineer . Competitive Coder </title>
+  <meta name="description" content="Portfolio of IT work done by Hamza" />
 
   <style>
     :root {
@@ -13,14 +13,14 @@
       --text: #e5e7eb;
       --muted: #9ca3af;
       --accent: #38bdf8;
-      --focus: #22d3ee;
+      --focus: #22d3ee;                      <! A color palette that signifies maturity and composure >
     }
 
     * { box-sizing: border-box; }
 
     body {
       margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Arial, sans-serif;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Arial, sans-serif;     <! A nice font for a sleek design >
       background: linear-gradient(180deg, #020617, #020617 30%, var(--bg));
       color: var(--text);
       line-height: 1.65;
@@ -100,15 +100,16 @@
       margin-top: 4rem;
       border-top: 1px solid rgba(255,255,255,0.08);
       text-align: center;
-      color: var(--muted);
+      color: var(--muted);   
       font-size: 0.85rem;
     }
-  </style>
+  </style> 
 </head>
+
 <body>
 
 <header>
-  <h1>Hi, I'm Hamza 👋</h1>
+  <h1>Hi, I am Hamza 👋</h1>
   <p>
     IIT student passionate about <strong>Game Development</strong> and <strong>Software Engineering</strong>,
     with a strong focus on Unity, C#, and building innovative interactive systems.
@@ -117,7 +118,8 @@
   <nav aria-label="Primary navigation">
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
-    <a href="#skills">Tech Stack</a>
+    <a href="#skills">Tech Stack and Tools</a>
+    <a href="#certifications">Certifications</a>
     <a href="#github">GitHub</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -128,23 +130,23 @@
     <h2>💫 About Me</h2>
     <div class="card">
       <p>
-        I'm a student of IIT, actively working on developing innovative solutions—
+        I am a student majoring in Industrial IT, actively working on developing innovative solutions—
         whether that means engineering complex game mechanics or solving real-world
-        system design problems.
+        system design problems, with the help of skills and knowledge that I have obtained from different aspects of my life.
       </p>
       <p>
         I enjoy building interactive experiences using modern tools and frameworks,
         and I constantly seek opportunities to deepen my understanding of
-        game engines, software architecture, and performance-oriented programming.
+        game engines, software architecture, systems design, performance-oriented programming as well as machine learning capabilities.
       </p>
     </div>
   </section>
 
   <section id="projects">
-    <h2>🎮 Projects (Unity & Software)</h2>
+    <h2> 👩🏻‍💻📓✍🏻💡 Projects 👩🏻‍💻📓✍🏻💡 </h2>
     <div class="grid">
       <div class="card">
-        <h3>Unity Game Projects</h3>
+        <h3>Projects</h3>
         <p>
           A collection of Unity-based games and prototypes exploring mechanics,
           physics systems, and gameplay architecture.
@@ -152,10 +154,10 @@
         <div class="tags">
           <span class="tag">Unity</span>
           <span class="tag">C#</span>
-          <span class="tag">Game Systems</span>
+          <span class="tag">Game Development and Design</span>
+          <span class ="tag">Pixel Art (with Aseprite)</span>
         </div>
       </div>
-
       <div class="card">
         <h3>Software & Engineering Work</h3>
         <p>
@@ -163,29 +165,39 @@
           APIs, and scalable application logic.
         </p>
         <div class="tags">
-          <span class="tag">JavaScript</span>
-          <span class="tag">Python</span>
-          <span class="tag">C++</span>
+          <span class="tag">![JavaScript]</span>
+          <span class="tag">![Python]</span>
+          <span class="tag">![C++]</span>
         </div>
       </div>
     </div>
   </section>
 
   <section id="skills">
-    <h2>💻 Tech Stack & Tools</h2>
+    <h2>💻 Tech Stack & Tools 💻 </h2>
     <div class="card">
-      <p><strong>Languages:</strong> C#, C++, JavaScript, TypeScript, Python</p>
-      <p><strong>Frameworks & Engines:</strong> Unity, Unreal Engine, React, Node.js</p>
-      <p><strong>Tools:</strong> GitHub, Azure, Power BI, Pandas, Aseprite, Adobe Photoshop & Premiere Pro</p>
-      <p><strong>Platforms:</strong> Itch.io, Xbox</p>
+      <p><strong>Languages:</strong> ![C#], ![C++], ![JavaScript], ![TypeScript], ![Python]</p>
+      <p><strong>Frameworks & Engines:</strong> ![Unity, ![Unreal Engine, ![React, ![Node.js]</p>
+      <p><strong>Tools:</strong> ![GitHub, ![Azure, ![Power BI], ![Pandas], ![Aseprite], ![Libresprite], ![Adobe Photoshop], [Premiere Pro]</p>
+      <p><strong>Platforms:</strong> ![Itch.io], ![Xbox]</p>
     </div>
   </section>
+
+  <section id="certifications">
+  <h2>🏵️ Certifications 🏵️ </h2>
+  <div class = "card">
+      <p>
+        <strong>Game Design and Development Specialization 1</strong> 
+        <a href="https://www.coursera.org/account/accomplishments/verify/THWH5WZQK7NA" t
+        
+                                                                         
+      </p>
 
   <section id="github">
     <h2>📊 GitHub</h2>
     <div class="card">
       <p>
-        Explore my repositories, commits, and ongoing work on GitHub.
+        Explore repositories of projects, commits, and ongoing work done by me on GitHub.
       </p>
       <p>
         👉 <a href="https://github.com/MHamzaS45" target="_blank" rel="noopener">github.com/MHamzaS45</a>
@@ -194,22 +206,26 @@
   </section>
 
   <section id="contact">
-    <h2>🌐 Contact & Socials</h2>
+    <h2>🌐 Contact 🌐 </h2>
     <div class="card">
       <p>
-        Connect with me professionally on LinkedIn:
+        Connect with me on LinkedIn:
       </p>
       <p>
-        🔗 <a href="https://www.linkedin.com/in/hamza-sahqani-651135388/" target="_blank" rel="noopener">LinkedIn Profile</a>
+        [in] <a href="https://www.linkedin.com/in/hamza-sahqani-651135388/" target="_blank" rel="noopener"> LinkedIn </a>
       </p>
+      <p>
+        Follow on itch.io
+        🕹️ <a href="https://uwut09.itch.io/" target = "_blank" rel="noopener"> Itch.io </a>
+     </p>
     </div>
   </section>
 </main>
 
 <footer>
   <p>
-    © 2026 Hamza · Hosted on GitHub Pages
-  </p>
+    ©  Hosted on GitHub Pages
+  </p>  
 </footer>
 
 </body>
