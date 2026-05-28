@@ -294,6 +294,23 @@
           </a>
         </div>
 
+
+        <div class="card project-card">
+          <h3>C# Backend Rest API </h3>
+          <p>
+             A containerized Backend Application using ASP.NET Core 9 and C# 
+          </p>
+
+          <div class="tags">
+            <span class="tag">C#</span>
+            <span class="tag">Backend</span>
+          </div>
+
+          <a class="btn" href="#">
+            Work In Progress
+          </a>
+        </div>
+
         <div class="card project-card">
           <h3>PyTorch Mini LLM</h3>
           <p>
